@@ -7,6 +7,13 @@
   padding: 30px 0px !important;
   background-color: #f7fafd;
   transition: all 0.2s;
+  .navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+    i {
+      color: $primary2;
+    }
+  }
   .navbar-brand {
     width: 6.6875rem;
     height: 2.25rem;
