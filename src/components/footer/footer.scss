@@ -1,0 +1,73 @@
+.footer {
+  padding: 4rem 0;
+  border-top: 1px solid #c8d4d6;
+  .singleFooter {
+    .fHead {
+      font-weight: 700;
+      color: #999 !important;
+      margin-bottom: 0.6rem;
+    }
+    span {
+      color: #999999 !important;
+    }
+    .contactList {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        margin-bottom: 0.2rem;
+      }
+      a {
+        text-decoration: none !important;
+      }
+
+      i {
+        width: 20px;
+        height: 20px;
+        font-size: 0.8rem;
+        margin-right: 0.2rem;
+      }
+    }
+    .valueLink {
+      a {
+        text-decoration: none;
+        color: #999 !important;
+        margin-bottom: 0.3rem;
+        display: block;
+      }
+    }
+
+    .socials {
+      display: flex;
+      justify-content: space-between;
+      a {
+        display: inline-block;
+        background-color: #999;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 1.25rem;
+        border-radius: 50%;
+        transition: all 0.2s ease;
+        i {
+          color: #fff;
+        }
+
+        &:hover {
+          background-color: rgb(126, 126, 126);
+        }
+      }
+    }
+  }
+}
+.copyRight {
+  p {
+    font-size: 0.92rem !important;
+    text-align: center;
+    color: #999 !important;
+    a {
+      color: #555;
+    }
+  }
+}

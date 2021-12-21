@@ -1,0 +1,51 @@
+@import "../../App.scss";
+.testimonials {
+  padding: 100px 0px;
+
+  .testimonialHead {
+    margin-bottom: 30px;
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+  }
+  .singleTest {
+    text-align: center;
+    .rating {
+      i {
+        font-size: 1.375rem;
+        margin-right: 0.25rem;
+        color: rgb(255, 179, 15);
+      }
+      .testimonial-line {
+        width: 3rem;
+        height: 2px;
+        margin-bottom: 1rem;
+        border-top: 0.125rem solid rgba(224, 224, 224, 0.082);
+        margin: 16px auto;
+        margin-top: 20px;
+      }
+    }
+    .userText {
+      p {
+        font-style: italic;
+      }
+      span {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: $primary !important;
+      }
+    }
+  }
+  .clientLogos {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 2.5rem;
+    margin: 5.25rem 0px;
+  }
+}

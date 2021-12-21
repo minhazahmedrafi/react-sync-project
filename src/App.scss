@@ -1,0 +1,40 @@
+$primary: #333333;
+$primary2: #ff556e;
+$textColor: rgb(119, 119, 119);
+
+@mixin primaryBtn {
+  display: inline-block;
+  padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+  border: 0.125rem solid $primary2;
+  border-radius: 2rem;
+  background-color: $primary2;
+  color: #fff;
+  font: 700 0.875rem/0 "Open Sans", sans-serif;
+  text-decoration: none;
+  transition: all 0.2s;
+
+  &:hover {
+    border: 0.125rem solid $primary2;
+    background-color: transparent;
+    color: $primary2;
+    text-decoration: none;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary !important;
+}
+p {
+  font-size: 1.07rem;
+  color: $textColor;
+  line-height: 28px;
+}
+
+.fa-square {
+  color: #777;
+  font-size: 0.5rem;
+}

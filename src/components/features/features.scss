@@ -1,0 +1,75 @@
+@import "../../App.scss";
+.features {
+  padding: 100px 0px;
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .featuresHead {
+    h2 {
+      margin-bottom: 0.875rem;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    p {
+      width: 85%;
+      margin: 0px auto;
+    }
+  }
+  .leftFeaturesContent {
+    .singleFeature {
+      margin-bottom: 2.875rem;
+      display: flex;
+      .featureText {
+        h4 {
+          margin-bottom: 0.25rem;
+          font-size: 1.3rem;
+          font-weight: 700;
+        }
+        p {
+          margin-left: auto !important;
+        }
+      }
+      .featureIcon {
+        margin-left: 20px;
+        i {
+          font-size: 1.7rem;
+          height: 70px;
+          width: 70px;
+          background-color: #aa7eec;
+          text-align: center !important;
+          line-height: 70px;
+          color: #fff;
+          border-radius: 50%;
+        }
+        .fCode {
+          background-color: #19ca94 !important;
+        }
+        .fCog {
+          background-color: $primary2 !important;
+        }
+      }
+    }
+  }
+  .featuresCenterImg {
+    img {
+      width: 18.75rem;
+      height: 39.8125rem;
+    }
+  }
+  .rightFeaturesContent {
+    .singleFeature {
+      .featureIcon {
+        margin-left: 0px;
+        margin-right: 20px;
+        .fComment {
+          background-color: #ffb30f;
+        }
+        .fRocket {
+          background-color: #50b9e8;
+        }
+      }
+    }
+  }
+}

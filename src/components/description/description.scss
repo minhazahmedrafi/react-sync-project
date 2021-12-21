@@ -1,0 +1,132 @@
+@import "../../App.scss";
+.description {
+  padding: 100px 0px !important;
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .descImage {
+    width: 31.0625rem;
+    height: 36.625rem;
+  }
+  .descContent {
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 1.07rem;
+      color: $textColor;
+    }
+    .contentList {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      i {
+        font-size: 8px;
+        margin-right: 8px;
+      }
+    }
+  }
+  .btn {
+    @include primaryBtn();
+    margin-top: 20px;
+  }
+}
+.description2 {
+  background-color: #e8eff6;
+  padding: 100px 0px;
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  .desc2LeftContent {
+    .nav-pills {
+      margin-bottom: 30px !important;
+      .nav-item {
+        .nav-link {
+          padding: 0.5rem 1.5rem;
+          border-radius: 0;
+          background-color: #f7fafd;
+          color: #777;
+          font-weight: 700;
+          font-size: 1.125rem;
+          text-decoration: none;
+          transition: all 0.2s ease;
+          margin-right: 10px;
+          border: 1px solid transparent;
+          letter-spacing: 0.5px;
+          i {
+            margin-right: 6px;
+          }
+
+          &.active {
+            background-color: #9a67e7;
+            color: #fff;
+            border-color: #dee2e6 #dee2e6 #fff;
+          }
+        }
+      }
+    }
+
+    .tab-content {
+      .tabHeader {
+        span {
+          font-weight: bold;
+        }
+      }
+      .scheduleList {
+        .linst1 {
+          display: flex;
+          p {
+            line-height: 28px;
+          }
+          i {
+            padding-top: 5px;
+            margin-right: 10px;
+            font-size: 18px;
+            color: #19ca94;
+          }
+        }
+        .scheduleButtons {
+          margin-top: 14px;
+          .btn {
+            @include primaryBtn();
+            margin-right: 14px;
+          }
+          .privacy {
+            border-color: $primary !important;
+            background-color: transparent !important;
+            color: $primary !important;
+
+            &:hover {
+              background-color: $primary !important;
+              color: #fff !important;
+            }
+          }
+        }
+      }
+      .termsList {
+        p {
+          line-height: 28px;
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+      .termsBtn {
+        .termLink {
+          color: $primary2;
+          font-size: 1.07rem;
+        }
+      }
+    }
+  }
+
+  .desc2Img {
+    width: 31.0625rem;
+    height: 36.625rem;
+  }
+}

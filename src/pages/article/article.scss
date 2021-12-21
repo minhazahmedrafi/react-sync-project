@@ -1,0 +1,70 @@
+@import "../../App.scss";
+.contentHead {
+  h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}
+.article {
+  .artcleLgImg {
+    padding: 5rem 0rem;
+  }
+  .businessReport {
+    margin-bottom: 5rem;
+
+    .reportDetails {
+      span {
+        font-size: 1.07rem;
+        color: #777;
+        a {
+          color: #555;
+        }
+      }
+    }
+  }
+  .leftReportList {
+    ul {
+      margin-top: 1rem;
+      padding: 0px;
+      .repoList {
+        i {
+          margin-top: 0.6rem;
+          margin-right: 0.6rem;
+        }
+        list-style-type: none;
+        display: flex;
+      }
+    }
+  }
+  .improveProduct {
+    padding-bottom: 3rem;
+
+    .proveImg {
+      margin-left: 2rem;
+      img {
+        border-radius: 0.4rem;
+      }
+    }
+  }
+  .aboutTemplate {
+    padding-bottom: 4rem;
+    .aboutContent {
+      background-color: #e8eff6;
+      padding: 2rem;
+      p {
+        font-style: italic;
+      }
+    }
+  }
+  .predction {
+    padding-bottom: 5rem;
+
+    &Content {
+      a {
+        @include primaryBtn();
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}

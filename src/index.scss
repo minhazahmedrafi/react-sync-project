@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7fafd !important;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    .deco-white-circle-1,
+    .deco-white-circle-2,
+    .deco-blue-circle,
+    .deco-yellow-circle,
+    .deco-green-diamond {
+      display: none !important;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .header {
+    .p-heading {
+      width: 100% !important;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .text-container h1 {
+      font-size: 3rem !important;
+    }
+    .image-container {
+      display: none;
+    }
+  }
+  .home .features .allFeatures .singleFeature {
+    margin-bottom: 1rem;
+  }
+  .description {
+    .respo {
+      display: flex !important;
+      justify-content: center !important;
+      margin-bottom: 4rem;
+    }
+  }
+  .contentHead {
+    h2 {
+      font-size: 1rem !important;
+    }
+  }
+  .description2 {
+    .respo {
+      display: flex !important;
+      justify-content: center !important;
+    }
+  }
+  .features .leftFeaturesContent .respo {
+    flex-direction: row-reverse !important;
+    .featureText {
+      text-align: start !important;
+      margin-left: 20px;
+    }
+  }
+  .features .rightFeaturesContent {
+    margin-top: 4rem;
+  }
+  .testimonials .singleTest {
+    margin-bottom: 3rem;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .clientLogos {
+    img {
+      margin: 1rem 0rem;
+    }
+  }
+  .home .projectCount .projectInfo h2 {
+    font-size: 3rem !important;
+  }
+  .decoImage {
+    display: none;
+  }
+  .home .bottomDownload .downloadImg {
+    width: 40.8125rem !important;
+    height: 25rem !important;
+  }
+  .home .bottomDownload .donwloadContent p {
+    width: 90% !important;
+  }
+  .footer {
+    padding-bottom: 2rem !important;
+    .singleFooter {
+      margin-bottom: 2rem !important;
+    }
+    .socials {
+      justify-content: flex-start !important;
+      a {
+        margin-right: 1rem;
+      }
+    }
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+  .artHead h1 {
+    font-size: 2rem !important;
+    width: 90% !important;
+  }
+  .article .improveProduct .proveImg {
+    margin-left: 0rem !important;
+  }
+}
+@media (max-width: 575px) {
+  .descImage,
+  .desc2Img {
+    width: 25rem !important;
+  }
+  .testimonials .singleTest {
+    width: 100% !important;
+  }
+  .home .bottomDownload .downloadImg {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .screens {
+    .singleScreen {
+      text-align: center;
+    }
+  }
+  .description2 .desc2LeftContent .nav-pills .nav-item .nav-link {
+    padding: 0.5rem 0.4rem !important;
+    font-size: 1.05rem !important;
+    margin-right: 4px !important;
+    margin-bottom: 4px;
+  }
+  .home .bottomDownload .donwloadContent .bottomBtns {
+    flex-direction: column !important;
+    .btn {
+      margin-bottom: 1rem !important;
+    }
+  }
+  .btn-solid-lg {
+    margin-bottom: 1rem !important;
+  }
+  .artHead h1 {
+    font-size: 1.5rem !important;
+  }
+  .libality .termsContent {
+    padding: 1rem !important;
+  }
+  .inquireRight {
+    margin-left: 0rem !important;
+  }
+}

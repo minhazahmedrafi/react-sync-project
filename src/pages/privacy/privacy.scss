@@ -1,0 +1,92 @@
+@import "../../App.scss";
+.contentHead {
+  h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}
+.privacy {
+  .businessReport {
+    padding: 3rem 0;
+
+    .reportDetails {
+      span {
+        font-size: 1.07rem;
+        color: #777;
+        a {
+          color: #555;
+        }
+      }
+    }
+    .leftReportList {
+      ul {
+        margin-top: 1rem;
+        padding: 0px;
+        .repoList {
+          i {
+            margin-top: 0.6rem;
+            margin-right: 0.6rem;
+          }
+          list-style-type: none;
+          display: flex;
+        }
+      }
+    }
+  }
+}
+.pageData {
+  padding-bottom: 3rem;
+  .innerContent {
+    ul {
+      li {
+        list-style-type: decimal;
+        color: #777;
+      }
+    }
+  }
+}
+.customers {
+  padding-bottom: 3rem;
+}
+.landingPage {
+  padding-bottom: 3rem;
+}
+.inquire {
+  .inquireRBtn {
+    @include primaryBtn();
+    margin-top: 3rem;
+  }
+  padding-bottom: 4rem;
+
+  a {
+    color: #555;
+  }
+  .inquireRight {
+    margin-left: 2rem;
+    .btn-primary {
+      @include primaryBtn();
+      display: block;
+      width: 100% !important;
+      padding: 1.4rem 0rem;
+      margin-top: 1rem;
+    }
+    .form-group {
+      margin-bottom: 0.6rem;
+      .form-control {
+        color: #777 !important;
+        padding: 0.7rem 0.8rem;
+      }
+      option {
+        color: #777 !important;
+      }
+    }
+    .form-check-label {
+      color: #777 !important;
+    }
+    .form-check-input:checked {
+      background-color: $primary2;
+      border-color: $primary2;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../App.scss";
+.contentHead {
+  h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}
+.libality {
+  padding: 4rem 0rem;
+  .termsContent {
+    background-color: #e8eff6;
+    padding: 3rem;
+
+    span {
+      color: #777;
+      font-size: 1.07rem;
+      a {
+        color: #555 !important;
+      }
+    }
+    .termsList {
+      ul {
+        margin-top: 1rem;
+        padding: 0px;
+        .repoList {
+          i {
+            margin-top: 0.6rem;
+            margin-right: 0.6rem;
+          }
+          list-style-type: none;
+          display: flex;
+        }
+      }
+    }
+  }
+}
+.condition {
+  padding-bottom: 3rem;
+  a {
+    @include primaryBtn();
+    margin-top: 1rem;
+  }
+}
+.usage {
+  padding-bottom: 3rem;
+}
